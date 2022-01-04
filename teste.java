@@ -10,6 +10,7 @@ public class Teste {
         int num2 = scanner.nextInt();
         int soma_numeros = num1 + num2;
         System.out.println("Soma:" + soma_numeros);
+        in.close();
     }
 
 }
